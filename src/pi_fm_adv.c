@@ -726,7 +726,7 @@ int main(int argc, char **argv) {
 
 			case 'w': //power
 				power = atoi(optarg);
-				if(power < 0 || power > 10)
+				if(power < 0 || power > 50)
 					fatal("Output power has to be set in range of 0 - 7\n");
 				break;
 
